@@ -1,0 +1,11 @@
+
+1. getBusRouteList(노선번호에 해당하는 노선 목록 조회)
+
+	ServiceKey=AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D
+	strSrch=6628
+	http://ws.bus.go.kr/api/rest/busRouteInfo/getBusRouteList
+	
+	http://ws.bus.go.kr/api/rest/busRouteInfo/getBusRouteList?strSrch=6628&ServiceKey=AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D
+	
+	
+	CoC ( Convention over Configuration)
