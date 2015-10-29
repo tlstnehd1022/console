@@ -9,3 +9,22 @@
 	
 	
 	CoC ( Convention over Configuration)
+	
+	Expression(식)
+	
+	1. Arithmetic Expression(수식)
+		ex) 4 * (3 + 5) / ( 5 - 4 )
+		
+	2. Regular Expression (정규 표현식)
+		ex) [a-zA-Z][0-9]
+		
+	3. Selector Expression (CSS)
+		ex) h1 > div[class*=xxx] //h1 안에 div 안에 속성으로 xxx를 가지고 있는놈
+		ex) #box // 아이디를 가르킴
+		
+	4. EL(Expression Language)
+		산술식을 확장해서 if같은걸쓸수잇게 조건을 쓸수잇게 한것
+		${ 1 + 2}
+	
+	5. XPath Expression
+		ex) //itemList //몽땅다 선택 같은거
