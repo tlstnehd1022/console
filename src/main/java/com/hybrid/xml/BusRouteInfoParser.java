@@ -144,7 +144,7 @@ static Log log = LogFactory.getLog(BusRouteInfoParser.class);
 			//Marshall (Serialization)
 			tFactory.setAttribute("indent-number", 4);
 			Transformer transformer = tFactory.newTransformer();
-			transformer.setOutputProperty(OutputKeys.INDENT, "true");
+			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 
 			DOMSource xmlSource = new DOMSource(document);
 			
